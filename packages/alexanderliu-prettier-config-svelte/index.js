@@ -1,4 +1,4 @@
-import prettierConfig from 'prettier-config';
+import prettierConfig from '@alexanderliu/prettier-config';
 
 export default {
 	...prettierConfig,
