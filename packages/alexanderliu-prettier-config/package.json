@@ -8,9 +8,11 @@
 		"format:check": "prettier --check .",
 		"format:write": "prettier --write ."
 	},
-	"devDependencies": {
-		"prettier": "3.2.5",
+	"dependencies": {
 		"prettier-plugin-packagejson": "2.4.14"
+	},
+	"devDependencies": {
+		"prettier": "3.2.5"
 	},
 	"peerDependencies": {
 		"prettier": "3.2.5"
