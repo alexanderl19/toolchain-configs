@@ -1,5 +1,11 @@
 # @alexanderliu/prettier-config-svelte
 
+## 1.0.4
+
+### Patch Changes
+
+- e8e43a0: make prettier-plugin-svelte a direct dependency
+
 ## 1.0.3
 
 ### Patch Changes
