@@ -1,36 +1,11 @@
-# Turborepo Design System starter with Changesets
+# Toolchain Configs
 
-This is an official React design system starter powered by Turborepo. Versioning and package publishing is handled by [Changesets](https://github.com/changesets/changesets) and fully automated with GitHub Actions.
+This repo contains shared configurations for tools used for linting, formatting, etc, and is based on the ["with-changesets" turbo example](https://github.com/vercel/turbo/tree/7a9d83956cc6c0145ed5abdedb2080dec753d09b/examples/with-changesets).
 
-## Using this example
+## Packages
 
-Run the following command:
-
-```sh
-npx create-turbo@latest -e with-changesets
-```
-
-## What's inside?
-
-This Turborepo includes the following:
-
-### Apps and Packages
-
-- `docs`: A placeholder documentation site powered by [Next.js](https://nextjs.org/)
-- `@acme/core`: core React components
-- `@acme/utils`: shared React utilities
-- `@acme/tsconfig`: shared `tsconfig.json`s used throughout the monorepo
-- `@acme/eslint-config`: ESLint preset
-
-Each package and app is 100% [TypeScript](https://www.typescriptlang.org/).
-
-### Utilities
-
-This Turborepo has some additional tools already setup for you:
-
-- [TypeScript](https://www.typescriptlang.org/) for static type checking
-- [ESLint](https://eslint.org/) for code linting
-- [Prettier](https://prettier.io) for code formatting
+- `@alexanderliu/prettier-config`: Prettier config
+- `@alexanderliu/prettier-config-svelte`: Prettier config with Svelte plugin
 
 ### Useful commands
 
@@ -55,19 +30,3 @@ Package publishing has been configured using [Changesets](https://github.com/cha
 This example comes with automated npm releases setup in a [GitHub Action](https://github.com/changesets/action). To get this working, you will need to create an `NPM_TOKEN` and `GITHUB_TOKEN` in your repository settings. You should also install the [Changesets bot](https://github.com/apps/changeset-bot) on your GitHub repository as well.
 
 For more information about this automation, refer to the official [changesets documentation](https://github.com/changesets/changesets/blob/main/docs/automating-changesets.md)
-
-### npm
-
-If you want to publish package to the public npm registry and make them publicly available, this is already setup.
-
-To publish packages to a private npm organization scope, **remove** the following from each of the `package.json`'s
-
-```diff
-- "publishConfig": {
--  "access": "public"
-- },
-```
-
-### GitHub Package Registry
-
-See [Working with the npm registry](https://docs.github.com/en/packages/working-with-a-github-packages-registry/working-with-the-npm-registry#publishing-a-package-using-publishconfig-in-the-packagejson-file)

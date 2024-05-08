@@ -1,23 +1,22 @@
 {
-  "private": true,
+  "name": "toolchain-configs",
   "scripts": {
     "build": "turbo build",
     "dev": "turbo dev",
-    "lint": "turbo lint",
-    "clean": "turbo clean && rm -rf node_modules",
-    "format": "prettier --write \"**/*.{ts,tsx,md}\"",
+    "format:check": "turbo run format:check && prettier --check .",
+    "format:write": "turbo run format:write && prettier --write .",
     "changeset": "changeset",
     "version-packages": "changeset version",
-    "release": "turbo build --filter=docs^... && changeset publish"
+    "release": "changeset publish"
   },
   "devDependencies": {
-    "@acme/eslint-config": "workspace:*",
-    "@changesets/cli": "^2.27.1",
-    "eslint": "^8.57.0",
-    "prettier": "^3.2.5",
-    "turbo": "latest"
+    "@alexanderliu/prettier-config": "workspace:*",
+    "@changesets/cli": "2.27.1",
+    "eslint": "9.2.0",
+    "prettier": "3.2.5",
+    "turbo": "1.13.3"
   },
-  "packageManager": "pnpm@8.9.0",
+  "packageManager": "pnpm@9.0.5",
   "engines": {
     "node": ">=18"
   }
