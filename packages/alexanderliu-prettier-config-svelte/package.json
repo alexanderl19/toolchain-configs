@@ -9,14 +9,13 @@
 		"format:write": "prettier --write ."
 	},
 	"dependencies": {
-		"@alexanderliu/prettier-config": "workspace:*"
-	},
-	"devDependencies": {
-		"prettier": "3.2.5",
+		"@alexanderliu/prettier-config": "workspace:*",
 		"prettier-plugin-svelte": "3.2.3"
 	},
+	"devDependencies": {
+		"prettier": "3.2.5"
+	},
 	"peerDependencies": {
-		"prettier": "3.2.5",
-		"prettier-plugin-svelte": "3.1.2"
+		"prettier": "3.2.5"
 	}
 }
