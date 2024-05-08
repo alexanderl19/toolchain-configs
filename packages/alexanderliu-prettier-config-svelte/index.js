@@ -2,7 +2,7 @@ import prettierConfig from '@alexanderliu/prettier-config';
 
 export default {
 	...prettierConfig,
-	plugins: ['prettier-plugin-svelte'],
+	plugins: [...prettierConfig.plugins, 'prettier-plugin-svelte'],
 	overrides: [
 		{
 			files: '*.svelte',
