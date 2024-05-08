@@ -1,5 +1,11 @@
 # @alexanderliu/prettier-config-svelte
 
+## 1.0.5
+
+### Patch Changes
+
+- 6295047: include packagejson prettier plugin in svelte plugin
+
 ## 1.0.4
 
 ### Patch Changes
