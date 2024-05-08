@@ -1,5 +1,11 @@
 # @alexanderliu/prettier-config-svelte
 
+## 1.0.3
+
+### Patch Changes
+
+- a4cb899: import config from scoped package
+
 ## 1.0.2
 
 ### Patch Changes
