@@ -1,5 +1,11 @@
 # @alexanderliu/eslint-config
 
+## 1.0.0
+
+### Major Changes
+
+- 0b18a46: bump eslint config to v1
+
 ## 0.1.1
 
 ### Patch Changes
