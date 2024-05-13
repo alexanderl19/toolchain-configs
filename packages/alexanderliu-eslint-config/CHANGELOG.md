@@ -1,5 +1,11 @@
 # @alexanderliu/eslint-config
 
+## 1.0.1
+
+### Patch Changes
+
+- e422199: update eslint peer version
+
 ## 1.0.0
 
 ### Major Changes
