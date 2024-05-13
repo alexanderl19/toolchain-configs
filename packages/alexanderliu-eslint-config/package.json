@@ -2,7 +2,6 @@
 	"name": "@alexanderliu/eslint-config",
 	"version": "0.1.0",
 	"description": "",
-	"type": "module",
 	"main": "index.js",
 	"scripts": {
 		"format:check": "prettier --check .",
