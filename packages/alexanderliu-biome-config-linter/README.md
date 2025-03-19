@@ -28,9 +28,9 @@ pnpm add -D -E @alexanderliu/biome-config-linter @biomejs/biome@<version>
 {
     "format:check": "biome format .",
     "format:write": "biome format --write .",
-    "link:check": "biome lint .",
-    "link:sort": "biome check --formatter-enabled=false --linter-enabled=false --organize-imports-enabled=true --write .",
-    "link:write": "biome lint --write ."
+    "lint:check": "biome lint .",
+    "lint:sort": "biome check --formatter-enabled=false --linter-enabled=false --organize-imports-enabled=true --write .",
+    "lint:write": "biome lint --write ."
 }
 ```
 

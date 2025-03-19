@@ -1,5 +1,11 @@
 # @alexanderliu/biome-config-linter
 
+## 1.0.2
+
+### Patch Changes
+
+- Lint misspelled as link
+
 ## 1.0.1
 
 ### Patch Changes

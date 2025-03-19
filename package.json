@@ -5,9 +5,9 @@
 		"format:check": "pnpm format:package-json --check && biome format .",
 		"format:package-json": "sort-package-json 'package.json' 'packages/*/package.json'",
 		"format:write": "pnpm format:package-json && biome format --write .",
-		"link:check": "biome lint .",
-		"link:sort": "biome check --formatter-enabled=false --linter-enabled=false --organize-imports-enabled=true --write .",
-		"link:write": "biome lint --write .",
+		"lint:check": "biome lint .",
+		"lint:sort": "biome check --formatter-enabled=false --linter-enabled=false --organize-imports-enabled=true --write .",
+		"lint:write": "biome lint --write .",
 		"release": "changeset publish",
 		"version-packages": "changeset version"
 	},
