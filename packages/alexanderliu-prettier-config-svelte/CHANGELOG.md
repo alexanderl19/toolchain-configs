@@ -1,5 +1,13 @@
 # @alexanderliu/prettier-config-svelte
 
+## 2.0.1
+
+### Patch Changes
+
+- a2824ad: Package READMEs
+- Updated dependencies [a2824ad]
+  - @alexanderliu/prettier-config@2.0.1
+
 ## 2.0.0
 
 ### Major Changes
