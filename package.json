@@ -2,12 +2,12 @@
 	"name": "toolchain-configs",
 	"scripts": {
 		"changeset": "changeset",
-		"format:check": "pnpm format:package-json --check && pnpm biome format .",
+		"format:check": "pnpm format:package-json --check && biome format .",
 		"format:package-json": "sort-package-json 'package.json' 'packages/*/package.json'",
-		"format:write": "pnpm format:package-json && pnpm biome format --write .",
-		"link:check": "pnpm biome lint .",
+		"format:write": "pnpm format:package-json && biome format --write .",
+		"link:check": "biome lint .",
 		"link:sort": "biome check --formatter-enabled=false --linter-enabled=false --organize-imports-enabled=true --write .",
-		"link:write": "pnpm biome lint --write .",
+		"link:write": "biome lint --write .",
 		"release": "changeset publish",
 		"version-packages": "changeset version"
 	},
