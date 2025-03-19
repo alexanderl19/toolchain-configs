@@ -1,9 +1,7 @@
 {
 	"name": "toolchain-configs",
 	"scripts": {
-		"build": "turbo build",
 		"changeset": "changeset",
-		"dev": "turbo dev",
 		"format:check": "pnpm format:package-json --check && pnpm biome format .",
 		"format:package-json": "sort-package-json 'package.json' 'packages/*/package.json'",
 		"format:write": "pnpm format:package-json && pnpm biome format --write .",

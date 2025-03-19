@@ -4,24 +4,19 @@ This repo contains shared configurations for tools used for linting, formatting,
 
 ## Packages
 
-- `@alexanderliu/prettier-config`: Prettier config
-- `@alexanderliu/prettier-config-svelte`: Prettier config with Svelte plugin
+- `@alexanderliu/prettier-config`: [Prettier](https://prettier.io) config
+- `@alexanderliu/prettier-config-svelte`: [Prettier](https://prettier.io) config with Svelte plugin
+- `@alexanderliu/eslint-config`: [Eslint](https://eslint.org) config
+- `@alexanderliu/biome-config-linter`: Strict [Biome](https://biomejs.dev) linter config 
 
-### Useful commands
+## Commands
 
-- `yarn build` - Build all packages and the docs site
-- `yarn dev` - Develop all packages and the docs site
-- `yarn lint` - Lint all packages
-- `yarn changeset` - Generate a changeset
-- `yarn clean` - Clean up all `node_modules` and `dist` folders (runs each package's clean script)
-
-### Changing the npm organization scope
-
-The npm organization scope for this design system starter is `@acme`. To change this, it's a bit manual at the moment, but you'll need to do the following:
-
-- Rename folders in `packages/*` to replace `acme` with your desired scope
-- Search and replace `acme` with your desired scope
-- Re-run `yarn install`
+- `pnpm changeset` - Generate a changeset
+- `pnpm format:check` - Check formatting errors for all packages
+- `pnpm format:write` - Format all packages
+- `pnpm link:check` - Check linting errors for all packages
+- `pnpm link:write` - Lint all packages
+- `pnpm link:sort` - Sort imports for all packages
 
 ## Versioning and Publishing packages
 
