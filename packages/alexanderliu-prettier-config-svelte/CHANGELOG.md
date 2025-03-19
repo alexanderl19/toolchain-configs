@@ -1,5 +1,11 @@
 # @alexanderliu/prettier-config-svelte
 
+## 2.0.2
+
+### Patch Changes
+
+- Invalid Prettier config plugin
+
 ## 2.0.1
 
 ### Patch Changes

@@ -6,7 +6,7 @@ import { alexanderliuPrettierConfig } from "@alexanderliu/prettier-config";
  */
 const alexanderliuPrettierConfigSvelte = {
 	...alexanderliuPrettierConfig,
-	plugins: [...prettierConfig.plugins, "prettier-plugin-svelte"],
+	plugins: [...alexanderliuPrettierConfig.plugins, "prettier-plugin-svelte"],
 	overrides: [
 		{
 			files: "*.svelte",
