@@ -1,0 +1,49 @@
+{
+	"$schema": "./node_modules/@biomejs/biome/configuration_schema.json",
+	"linter": {
+		"rules": {
+			"complexity": {
+				"noExcessiveCognitiveComplexity": "warn",
+				"useDateNow": "error",
+				"useSimplifiedLogicExpression": "error"
+			},
+			"correctness": {
+				"noConstantMathMinMaxClamp": "error",
+				"noUnusedImports": "warn",
+				"noUnusedVariables": "warn"
+			},
+			"style": {
+				"noDefaultExport": "error",
+				"noYodaExpression": "error",
+				"useConsistentArrayType": "error",
+				"useFilenamingConvention": {
+					"level": "error",
+					"options": {
+						"requireAscii": true
+					}
+				},
+				"useForOf": "error",
+				"useNamingConvention": {
+					"level": "warn",
+					"options": {
+						"strictCase": true,
+						"requireAscii": true,
+						"conventions": [
+							{
+								"selector": {
+									"kind": "enum"
+								},
+								"formats": ["CONSTANT_CASE"]
+							}
+						]
+					}
+				}
+			},
+			"suspicious": {
+				"noEmptyBlockStatements": "error",
+				"useAwait": "warn",
+				"useErrorMessage": "error"
+			}
+		}
+	}
+}

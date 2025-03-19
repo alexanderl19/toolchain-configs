@@ -1,0 +1,12 @@
+{
+	"name": "@alexanderliu/biome-config-linter",
+	"version": "0.0.1",
+	"description": "",
+	"type": "module",
+	"exports": {
+		"./biome": "./common.json"
+	},
+	"peerDependencies": {
+		"@biomejs/biome": "1.9.4"
+	}
+}
