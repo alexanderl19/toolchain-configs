@@ -26,11 +26,11 @@ pnpm add -D -E @alexanderliu/biome-config-linter @biomejs/biome@<version>
 
 ```json
 {
-   "format:check": "biome format .",
-   "format:write": "biome format --write .",
-   "link:check": "biome lint .",
-   "link:sort": "biome check --formatter-enabled=false --linter-enabled=false --organize-imports-enabled=true --write .",
-   "link:write": "biome lint --write ."
+    "format:check": "biome format .",
+    "format:write": "biome format --write .",
+    "link:check": "biome lint .",
+    "link:sort": "biome check --formatter-enabled=false --linter-enabled=false --organize-imports-enabled=true --write .",
+    "link:write": "biome lint --write ."
 }
 ```
 
@@ -48,8 +48,8 @@ pnpm add -D -E sort-package-json
 
 ```json
 {
-   "format:check": "pnpm format:package-json --check && biome format .",
-   "format:package-json": "sort-package-json 'package.json' 'packages/*/package.json'",
-   "format:write": "pnpm format:package-json && biome format --write .",
+    "format:check": "pnpm format:package-json --check && biome format .",
+    "format:package-json": "sort-package-json 'package.json' 'packages/*/package.json'",
+    "format:write": "pnpm format:package-json && biome format --write .",
 }
 ```
