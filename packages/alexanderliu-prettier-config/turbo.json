@@ -1,9 +1,0 @@
-{
-	"extends": ["//"],
-	"pipeline": {
-		"format:check": {},
-		"format:write": {
-			"cache": false
-		}
-	}
-}
