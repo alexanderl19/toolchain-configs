@@ -1,5 +1,11 @@
 # @alexanderliu/eslint-config
 
+## 2.0.0
+
+### Major Changes
+
+- 0b9b93c: Switch to named exports
+
 ## 1.0.1
 
 ### Patch Changes
