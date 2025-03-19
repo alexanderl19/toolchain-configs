@@ -71,6 +71,7 @@ const alexanderliuEslintConfig = defineConfig({
 		},
 	],
 	globals: {
+		// biome-ignore lint/style/useNamingConvention: NodeJS global casing not set by user
 		NodeJS: true,
 	},
 });
