@@ -4,10 +4,6 @@
 	"description": "",
 	"type": "module",
 	"main": "index.js",
-	"scripts": {
-		"format:check": "prettier --check .",
-		"format:write": "prettier --write ."
-	},
 	"dependencies": {
 		"@alexanderliu/prettier-config": "workspace:*",
 		"prettier-plugin-svelte": "3.2.6"

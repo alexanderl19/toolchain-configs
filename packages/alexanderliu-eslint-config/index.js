@@ -1,50 +1,60 @@
-module.exports = {
+import { defineConfig } from "eslint/config";
+
+const alexanderliuEslintConfig = defineConfig({
 	extends: [
-		'eslint:recommended',
-		'plugin:@typescript-eslint/recommended',
-		'plugin:svelte/recommended',
-		'prettier',
+		"eslint:recommended",
+		"plugin:@typescript-eslint/recommended",
+		"plugin:svelte/recommended",
+		"prettier",
 	],
 	rules: {
-		'import/export': 2,
-		'import/no-named-as-default': 1,
-		'import/no-named-as-default-member': 1,
-		'import/default': 2,
-		'import/namespace': 2,
-		'import/no-duplicates': 2,
-		'import/consistent-type-specifier-style': ['error', 'prefer-top-level'],
-		'import/order': [
-			'error',
+		"import/export": 2,
+		"import/no-named-as-default": 1,
+		"import/no-named-as-default-member": 1,
+		"import/default": 2,
+		"import/namespace": 2,
+		"import/no-duplicates": 2,
+		"import/consistent-type-specifier-style": ["error", "prefer-top-level"],
+		"import/order": [
+			"error",
 			{
-				groups: ['type', 'builtin', 'external', 'internal', 'parent', 'sibling', 'index'],
-				'newlines-between': 'always',
+				groups: [
+					"type",
+					"builtin",
+					"external",
+					"internal",
+					"parent",
+					"sibling",
+					"index",
+				],
+				"newlines-between": "always",
 				pathGroups: [
 					{
-						pattern: '$app/**',
-						group: 'external',
-						position: 'before',
+						pattern: "$app/**",
+						group: "external",
+						position: "before",
 					},
 					{
-						pattern: '$env/**',
-						group: 'external',
-						position: 'before',
+						pattern: "$env/**",
+						group: "external",
+						position: "before",
 					},
 					{
-						pattern: '$lib/**',
-						group: 'internal',
+						pattern: "$lib/**",
+						group: "internal",
 					},
 				],
 				distinctGroup: true,
-				pathGroupsExcludedImportTypes: ['type'],
+				pathGroupsExcludedImportTypes: ["type"],
 			},
 		],
 	},
-	parser: '@typescript-eslint/parser',
-	plugins: ['@typescript-eslint', 'import'],
+	parser: "@typescript-eslint/parser",
+	plugins: ["@typescript-eslint", "import"],
 	parserOptions: {
-		sourceType: 'module',
+		sourceType: "module",
 		ecmaVersion: 2020,
-		extraFileExtensions: ['.svelte'],
+		extraFileExtensions: [".svelte"],
 	},
 	env: {
 		browser: true,
@@ -53,14 +63,16 @@ module.exports = {
 	},
 	overrides: [
 		{
-			files: ['*.svelte'],
-			parser: 'svelte-eslint-parser',
+			files: ["*.svelte"],
+			parser: "svelte-eslint-parser",
 			parserOptions: {
-				parser: '@typescript-eslint/parser',
+				parser: "@typescript-eslint/parser",
 			},
 		},
 	],
 	globals: {
 		NodeJS: true,
 	},
-};
+});
+
+export { alexanderliuEslintConfig };

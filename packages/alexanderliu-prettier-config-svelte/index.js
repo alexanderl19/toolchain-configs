@@ -1,14 +1,20 @@
-import prettierConfig from '@alexanderliu/prettier-config';
+import { alexanderliuPrettierConfig } from "@alexanderliu/prettier-config";
 
-export default {
-	...prettierConfig,
-	plugins: [...prettierConfig.plugins, 'prettier-plugin-svelte'],
+/**
+ * @see https://prettier.io/docs/configuration
+ * @type {import("prettier").Config}
+ */
+const alexanderliuPrettierConfigSvelte = {
+	...alexanderliuPrettierConfig,
+	plugins: [...prettierConfig.plugins, "prettier-plugin-svelte"],
 	overrides: [
 		{
-			files: '*.svelte',
+			files: "*.svelte",
 			options: {
-				parser: 'svelte',
+				parser: "svelte",
 			},
 		},
 	],
 };
+
+export { alexanderliuPrettierConfigSvelte };
