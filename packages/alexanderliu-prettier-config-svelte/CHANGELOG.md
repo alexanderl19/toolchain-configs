@@ -1,5 +1,13 @@
 # @alexanderliu/prettier-config-svelte
 
+## 2.0.3
+
+### Patch Changes
+
+- Explicitly import Prettier plugins
+- Updated dependencies
+  - @alexanderliu/prettier-config@2.0.2
+
 ## 2.0.2
 
 ### Patch Changes

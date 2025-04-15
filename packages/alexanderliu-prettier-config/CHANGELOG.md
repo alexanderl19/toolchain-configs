@@ -1,5 +1,11 @@
 # @alexanderliu/prettier-config
 
+## 2.0.2
+
+### Patch Changes
+
+- Explicitly import Prettier plugins
+
 ## 2.0.1
 
 ### Patch Changes
