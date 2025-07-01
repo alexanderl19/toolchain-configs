@@ -1,6 +1,7 @@
-import prettier from "eslint-config-prettier";
 import { includeIgnoreFile } from "@eslint/compat";
 import js from "@eslint/js";
+import prettier from "eslint-config-prettier";
+import { importX } from "eslint-plugin-import-x";
 import svelte from "eslint-plugin-svelte";
 import globals from "globals";
 import ts from "typescript-eslint";

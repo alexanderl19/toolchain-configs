@@ -1,5 +1,11 @@
 # @alexanderliu/eslint-config-typescript-svelte
 
+## 2.0.3
+
+### Patch Changes
+
+- Add Missing ESLint Import
+
 ## 2.0.2
 
 ### Patch Changes
