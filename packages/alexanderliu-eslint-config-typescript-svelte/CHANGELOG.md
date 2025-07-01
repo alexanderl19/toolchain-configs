@@ -1,5 +1,11 @@
 # @alexanderliu/eslint-config-typescript-svelte
 
+## 2.0.2
+
+### Patch Changes
+
+- Fix import-x Plugin Config
+
 ## 2.0.1
 
 ### Patch Changes

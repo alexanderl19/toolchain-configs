@@ -11,15 +11,21 @@ const alexanderliuEslintConfig = (svelteConfig, gitignorePath) =>
 		js.configs.recommended,
 		...ts.configs.recommended,
 		{
+			plugins: {
+				"import-x": importX,
+			},
 			rules: {
-				"import/export": "error",
-				"import/no-named-as-default": "warn",
-				"import/no-named-as-default-member": "warn",
-				"import/default": "error",
-				"import/namespace": "error",
-				"import/no-duplicates": "error",
-				"import/consistent-type-specifier-style": ["error", "prefer-top-level"],
-				"import/order": [
+				"import-x/export": "error",
+				"import-x/no-named-as-default": "warn",
+				"import-x/no-named-as-default-member": "warn",
+				"import-x/default": "error",
+				"import-x/namespace": "error",
+				"import-x/no-duplicates": "error",
+				"import-x/consistent-type-specifier-style": [
+					"error",
+					"prefer-top-level",
+				],
+				"import-x/order": [
 					"error",
 					{
 						groups: [
