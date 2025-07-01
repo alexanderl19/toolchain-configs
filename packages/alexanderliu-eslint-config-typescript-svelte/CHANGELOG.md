@@ -1,5 +1,11 @@
 # @alexanderliu/eslint-config-typescript-svelte
 
+## 2.0.1
+
+### Patch Changes
+
+- Pass In gitignore Path
+
 ## 2.0.0
 
 ### Major Changes

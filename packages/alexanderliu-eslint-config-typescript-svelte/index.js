@@ -3,12 +3,9 @@ import { includeIgnoreFile } from "@eslint/compat";
 import js from "@eslint/js";
 import svelte from "eslint-plugin-svelte";
 import globals from "globals";
-import { fileURLToPath } from "node:url";
 import ts from "typescript-eslint";
 
-const gitignorePath = fileURLToPath(new URL("./.gitignore", import.meta.url));
-
-const alexanderliuEslintConfig = (svelteConfig) =>
+const alexanderliuEslintConfig = (svelteConfig, gitignorePath) =>
 	ts.config(
 		includeIgnoreFile(gitignorePath),
 		js.configs.recommended,
