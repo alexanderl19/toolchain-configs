@@ -1,5 +1,11 @@
 # @alexanderliu/biome-config-linter
 
+## 2.0.0
+
+### Major Changes
+
+- Update Biome version to v2
+
 ## 1.0.2
 
 ### Patch Changes

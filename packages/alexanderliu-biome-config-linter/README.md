@@ -18,6 +18,7 @@ pnpm add -D -E @alexanderliu/biome-config-linter @biomejs/biome@<version>
 
 ```json
 {
+    "$schema": "./node_modules/@biomejs/biome/configuration_schema.json",
     "extends": ["@alexanderliu/biome-config-linter/biome"]
 }
 ```
@@ -48,8 +49,7 @@ pnpm add -D -E sort-package-json
 
 ```json
 {
-    "format:check": "pnpm format:package-json --check && biome format .",
-    "format:package-json": "sort-package-json 'package.json' 'packages/*/package.json'",
-    "format:write": "pnpm format:package-json && biome format --write .",
+    "format:check": "sort-package-json --check && biome format .",
+    "format:write": "sort-package-json && biome format --write .",
 }
 ```

@@ -1,3 +1,7 @@
 {
-	"extends": ["@alexanderliu/biome-config-linter/biome"]
+	"$schema": "./node_modules/@biomejs/biome/configuration_schema.json",
+	"extends": ["@alexanderliu/biome-config-linter/biome"],
+	"files": {
+		"includes": ["**"]
+	}
 }
