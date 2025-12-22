@@ -2,6 +2,9 @@
 	"name": "@alexanderliu/biome-config-linter",
 	"version": "2.0.0",
 	"description": "",
+	"repository": {
+		"url": "https://github.com/alexanderl19/toolchain-configs"
+	},
 	"type": "module",
 	"exports": {
 		"./biome": "./common.json"

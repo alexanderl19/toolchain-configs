@@ -2,8 +2,8 @@
 	"name": "toolchain-configs",
 	"scripts": {
 		"changeset": "changeset",
-		"format:check": "sort-package-json --check && biome format .",
-		"format:write": "sort-package-json && biome format --write .",
+		"format:check": "sort-package-json \"package.json\" \"packages/*/package.json\" --check && biome format .",
+		"format:write": "sort-package-json \"package.json\" \"packages/*/package.json\" && biome format --write .",
 		"lint:check": "biome lint .",
 		"lint:sort": "biome check --formatter-enabled=false --linter-enabled=false --organize-imports-enabled=true --write .",
 		"lint:write": "biome lint --write .",

@@ -2,6 +2,9 @@
 	"name": "@alexanderliu/eslint-config",
 	"version": "2.0.0",
 	"description": "",
+	"repository": {
+		"url": "https://github.com/alexanderl19/toolchain-configs"
+	},
 	"type": "module",
 	"main": "index.js",
 	"dependencies": {
