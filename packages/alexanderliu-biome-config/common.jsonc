@@ -33,6 +33,12 @@
 					}
 				},
 				"useForOf": "error",
+				"useImportType": {
+					"level": "error",
+					"options": {
+						"style": "separatedType"
+					}
+				},
 				"useNamingConvention": {
 					"level": "warn",
 					"options": {
