@@ -1,5 +1,11 @@
 # @alexanderliu/prettier-config-svelte
 
+## 2.0.4
+
+### Patch Changes
+
+- prettier svelte config should directly depend on all plugins
+
 ## 2.0.3
 
 ### Patch Changes

@@ -1,6 +1,6 @@
 {
 	"name": "@alexanderliu/prettier-config-svelte",
-	"version": "2.0.3",
+	"version": "2.0.4",
 	"description": "",
 	"repository": {
 		"url": "https://github.com/alexanderl19/toolchain-configs"
@@ -9,6 +9,7 @@
 	"main": "index.js",
 	"dependencies": {
 		"@alexanderliu/prettier-config": "workspace:*",
+		"prettier-plugin-packagejson": "2.4.14",
 		"prettier-plugin-svelte": "3.2.6"
 	},
 	"devDependencies": {
