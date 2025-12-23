@@ -30,6 +30,12 @@ importers:
         specifier: 5.8.2
         version: 5.8.2
 
+  packages/alexanderliu-biome-config:
+    dependencies:
+      '@biomejs/biome':
+        specifier: 2.3.10
+        version: 2.3.10
+
   packages/alexanderliu-biome-config-linter:
     dependencies:
       '@biomejs/biome':

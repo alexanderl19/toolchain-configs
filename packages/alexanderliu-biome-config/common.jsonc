@@ -1,0 +1,79 @@
+{
+	"$schema": "./node_modules/@biomejs/biome/configuration_schema.json",
+	"vcs": {
+		"enabled": true,
+		"clientKind": "git",
+		"useIgnoreFile": true,
+		"defaultBranch": "main"
+	},
+	"linter": {
+		"rules": {
+			"a11y": {
+				"recommended": true
+			},
+			"complexity": {
+				"recommended": true,
+				"noExcessiveCognitiveComplexity": "warn",
+				"useSimplifiedLogicExpression": "error"
+			},
+			"correctness": {
+				"recommended": true
+			},
+			"style": {
+				"recommended": true,
+				"noDefaultExport": "error",
+				"noYodaExpression": "error",
+				"useConsistentArrayType": "error",
+				"useFilenamingConvention": {
+					"level": "error",
+					"options": {
+						"strictCase": true,
+						"requireAscii": true,
+						"filenameCases": ["camelCase", "export"]
+					}
+				},
+				"useForOf": "error",
+				"useNamingConvention": {
+					"level": "warn",
+					"options": {
+						"strictCase": true,
+						"requireAscii": true,
+						"conventions": [
+							{
+								"selector": {
+									"kind": "enum"
+								},
+								"formats": ["CONSTANT_CASE"]
+							}
+						]
+					}
+				}
+			},
+			"suspicious": {
+				"recommended": true,
+				"noEmptyBlockStatements": "error",
+				"useAwait": "error",
+				"useErrorMessage": "error"
+			}
+		}
+	},
+	"assist": {
+		"enabled": true,
+		"actions": {
+			"source": {
+				// JS
+				"organizeImports": {
+					"level": "on",
+					"options": {
+						"groups": [{ "type": true }]
+					}
+				},
+				"useSortedAttributes": "on",
+				"useSortedKeys": "on",
+
+				// CSS
+				"useSortedProperties": "on"
+			}
+		}
+	}
+}

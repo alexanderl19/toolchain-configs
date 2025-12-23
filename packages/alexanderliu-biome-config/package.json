@@ -1,0 +1,15 @@
+{
+	"name": "@alexanderliu/biome-config",
+	"version": "1.0.0",
+	"description": "",
+	"repository": {
+		"url": "https://github.com/alexanderl19/toolchain-configs"
+	},
+	"type": "module",
+	"exports": {
+		"./biome": "./common.json"
+	},
+	"peerDependencies": {
+		"@biomejs/biome": "2.3.10"
+	}
+}
