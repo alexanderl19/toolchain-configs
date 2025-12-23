@@ -69,23 +69,10 @@
 					}
 				},
 				"useSortedAttributes": "on",
-				"useSortedKeys": "on",
 
 				// CSS
 				"useSortedProperties": "on"
 			}
 		}
-	},
-	"overrides": [
-		{
-			"includes": ["**/*.json", "**/*.jsonc"],
-			"assist": {
-				"actions": {
-					"source": {
-						"useSortedKeys": "off"
-					}
-				}
-			}
-		}
-	]
+	}
 }

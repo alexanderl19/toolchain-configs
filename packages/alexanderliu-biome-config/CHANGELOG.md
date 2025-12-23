@@ -1,5 +1,11 @@
 # @alexanderliu/biome-config
 
+## 1.3.0
+
+### Minor Changes
+
+- Disable useSortedKeys entirely
+
 ## 1.2.0
 
 ### Minor Changes
