@@ -51,8 +51,8 @@ pnpm add -D -E sort-package-json
 
 ```json
 {
-    "format:check": "sort-package-json --check && biome check --formatter-enabled=false",
-    "format:write": "sort-package-json && biome check --formatter-enabled=false --write",
+    "format:check": "sort-package-json --check && biome format",
+    "format:write": "sort-package-json && biome format --write",
 }
 ```
 
@@ -60,7 +60,7 @@ or (optionally) in a monorepo:
 
 ```json
 {
-    "format:check": "sort-package-json \"package.json\" \"packages/*/package.json\" --check && biome check --formatter-enabled=false",
-    "format:write": "sort-package-json \"package.json\" \"packages/*/package.json\" && biome check --formatter-enabled=false --write",
+    "format:check": "sort-package-json \"package.json\" \"packages/*/package.json\" --check && biome format",
+    "format:write": "sort-package-json \"package.json\" \"packages/*/package.json\" && biome format --write",
 }
 ```
