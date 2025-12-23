@@ -1,5 +1,11 @@
 # @alexanderliu/prettier-config-svelte
 
+## 2.0.5
+
+### Patch Changes
+
+- Revert unnessary import
+
 ## 2.0.4
 
 ### Patch Changes

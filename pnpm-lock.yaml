@@ -105,9 +105,6 @@ importers:
       '@alexanderliu/prettier-config':
         specifier: workspace:*
         version: link:../alexanderliu-prettier-config
-      prettier-plugin-packagejson:
-        specifier: 2.4.14
-        version: 2.4.14(prettier@3.2.5)
       prettier-plugin-svelte:
         specifier: 3.2.6
         version: 3.2.6(prettier@3.2.5)(svelte@4.2.16)
