@@ -1,5 +1,11 @@
 # @alexanderliu/eslint-config-typescript-svelte
 
+## 2.1.0
+
+### Minor Changes
+
+- Installed missing globals package
+
 ## 2.0.3
 
 ### Patch Changes
