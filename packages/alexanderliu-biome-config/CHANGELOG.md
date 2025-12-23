@@ -1,5 +1,11 @@
 # @alexanderliu/biome-config
 
+## 1.1.0
+
+### Minor Changes
+
+- Disable useSortedKeys for package.json files
+
 ## 1.0.2
 
 ### Patch Changes
