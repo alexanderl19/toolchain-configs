@@ -1,5 +1,11 @@
 # @alexanderliu/biome-config
 
+## 1.2.0
+
+### Minor Changes
+
+- Disable sorted keys on all json files
+
 ## 1.1.0
 
 ### Minor Changes
