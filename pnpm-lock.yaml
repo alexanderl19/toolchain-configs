@@ -106,8 +106,8 @@ importers:
         specifier: workspace:*
         version: link:../alexanderliu-prettier-config
       prettier-plugin-svelte:
-        specifier: 3.2.6
-        version: 3.2.6(prettier@3.2.5)(svelte@4.2.16)
+        specifier: 3.4.1
+        version: 3.4.1(prettier@3.2.5)(svelte@4.2.16)
     devDependencies:
       prettier:
         specifier: 3.2.5
@@ -1921,8 +1921,8 @@ packages:
       prettier:
         optional: true
 
-  prettier-plugin-svelte@3.2.6:
-    resolution: {integrity: sha512-Y1XWLw7vXUQQZmgv1JAEiLcErqUniAF2wO7QJsw8BVMvpLET2dI5WpEIEJx1r11iHVdSMzQxivyfrH9On9t2IQ==}
+  prettier-plugin-svelte@3.4.1:
+    resolution: {integrity: sha512-xL49LCloMoZRvSwa6IEdN2GV6cq2IqpYGstYtMT+5wmml1/dClEoI0MZR78MiVPpu6BdQFfN0/y73yO6+br5Pg==}
     peerDependencies:
       prettier: ^3.0.0
       svelte: ^3.2.0 || ^4.0.0-next.0 || ^5.0.0-next.0
@@ -4638,7 +4638,7 @@ snapshots:
     optionalDependencies:
       prettier: 3.2.5
 
-  prettier-plugin-svelte@3.2.6(prettier@3.2.5)(svelte@4.2.16):
+  prettier-plugin-svelte@3.4.1(prettier@3.2.5)(svelte@4.2.16):
     dependencies:
       prettier: 3.2.5
       svelte: 4.2.16
