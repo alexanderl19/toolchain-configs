@@ -1,5 +1,11 @@
 # @alexanderliu/prettier-config-svelte
 
+## 2.1.0
+
+### Minor Changes
+
+- bump prettier svelte package for function bindings
+
 ## 2.0.5
 
 ### Patch Changes
